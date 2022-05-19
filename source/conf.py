@@ -32,9 +32,9 @@ release = 'v0.1'
 # ones.
 extensions = [
         'recommonmark',
-        # 'sphinx.ext.autodoc',
-        # 'sphinx.ext.viewcode',
-        # 'sphinx.ext.todo',
+        'sphinx.ext.autodoc',
+        'sphinx.ext.viewcode',
+        'sphinx.ext.todo',
         # 'nbsphinx' 
     ]
 
@@ -67,5 +67,3 @@ from recommonmark.parser import CommonMarkParser
 source_parsers = {'.md': CommonMarkParser}
 
 source_suffix = ['.rst', '.md']
-
-# nbsphinx_allow_errors = True
